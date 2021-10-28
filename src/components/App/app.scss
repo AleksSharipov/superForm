@@ -5,6 +5,7 @@
   align-items: center;
   min-height: 100vh;
   margin: 50px 0 100px;
+
   .form {
     max-width: 1420px;
     width: 100%;
@@ -36,5 +37,13 @@
     font-size: 18px;
     border: 1px solid grey;
     border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+    color: rgb(63, 63, 63);
+
+    &:hover {
+      color: rgb(66, 59, 59);
+      background-color: rgba(139, 139, 139, 0.103);
+    }
   }
 }

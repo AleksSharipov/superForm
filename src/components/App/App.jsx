@@ -1,7 +1,7 @@
-import FormHeader from './components/FormHeader/FormHeader';
-import FormContent from './components/FormContent/FormContent';
-import FormInfo from './components/FormInfo/FormInfo';
-import FormContacts from './components/FormContacts/FormContacts';
+import FormHeader from '../FormHeader/FormHeader';
+import FormContent from '../FormContent/FormContent';
+import FormInfo from '../FormInfo/FormInfo';
+import FormContacts from '../FormContacts/FormContacts';
 
 import './app.scss';
 
@@ -19,7 +19,7 @@ function App() {
         <FormInfo />
         <FormContacts />
 
-        <button className="btn_save">Сохранить</button>
+        <button onClick={e => e.preventDefault()} className="btn_save">Сохранить</button>
       </form >
     </div >
   );
