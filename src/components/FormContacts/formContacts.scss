@@ -1,0 +1,87 @@
+.form__contacts {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px;
+  height: 100%;
+
+  .item-0 {
+    border: 1px solid grey;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 4;
+    grid-column-end: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .item-1 {
+    border: 1px solid grey;
+    grid-row-start: 1;
+    grid-column-start: 4;
+    grid-row-end: 4;
+    grid-column-end: 9;
+
+    textarea {
+      width: 100%;
+      min-height: 150px;
+      height: 100%;
+      resize: none;
+    }
+  }
+  .item-2 {
+    border: 1px solid grey;
+    grid-row-start: 1;
+    grid-column-start: 9;
+    grid-row-end: 2;
+    grid-column-end: 11;
+  }
+  .item-3 {
+    border: 1px solid grey;
+    grid-row-start: 1;
+    grid-column-start: 11;
+    grid-row-end: 2;
+    grid-column-end: 15;
+  }
+  .item-4 {
+    border: 1px solid grey;
+    grid-row-start: 2;
+    grid-column-start: 9;
+    grid-row-end: 3;
+    grid-column-end: 11;
+  }
+  .item-5 {
+    border: 1px solid grey;
+    grid-row-start: 2;
+    grid-column-start: 11;
+    grid-row-end: 3;
+    grid-column-end: 15;
+  }
+  .item-6 {
+    border: 1px solid grey;
+    grid-row-start: 3;
+    grid-column-start: 9;
+    grid-row-end: 4;
+    grid-column-end: 11;
+  }
+  .item-7 {
+    border: 1px solid grey;
+    grid-row-start: 3;
+    grid-column-start: 11;
+    grid-row-end: 4;
+    grid-column-end: 15;
+  }
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  input {
+    width: 90%;
+    height: 70%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+  }
+}
