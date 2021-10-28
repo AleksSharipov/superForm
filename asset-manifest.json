@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/superForm/static/css/main.664323cb.chunk.css",
-    "main.js": "/superForm/static/js/main.d0df54cb.chunk.js",
-    "main.js.map": "/superForm/static/js/main.d0df54cb.chunk.js.map",
+    "main.css": "/superForm/static/css/main.431616cd.chunk.css",
+    "main.js": "/superForm/static/js/main.e0a16c7c.chunk.js",
+    "main.js.map": "/superForm/static/js/main.e0a16c7c.chunk.js.map",
     "runtime-main.js": "/superForm/static/js/runtime-main.7c433181.js",
     "runtime-main.js.map": "/superForm/static/js/runtime-main.7c433181.js.map",
     "static/js/2.7533543e.chunk.js": "/superForm/static/js/2.7533543e.chunk.js",
     "static/js/2.7533543e.chunk.js.map": "/superForm/static/js/2.7533543e.chunk.js.map",
     "index.html": "/superForm/index.html",
-    "static/css/main.664323cb.chunk.css.map": "/superForm/static/css/main.664323cb.chunk.css.map",
+    "static/css/main.431616cd.chunk.css.map": "/superForm/static/css/main.431616cd.chunk.css.map",
     "static/js/2.7533543e.chunk.js.LICENSE.txt": "/superForm/static/js/2.7533543e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7c433181.js",
     "static/js/2.7533543e.chunk.js",
-    "static/css/main.664323cb.chunk.css",
-    "static/js/main.d0df54cb.chunk.js"
+    "static/css/main.431616cd.chunk.css",
+    "static/js/main.e0a16c7c.chunk.js"
   ]
 }
